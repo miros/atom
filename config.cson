@@ -1,0 +1,26 @@
+"*":
+  autosave:
+    enabled: true
+  core:
+    disabledPackages: [
+      "linter-rebar3"
+      "linter-erlang"
+      "go-debug"
+      "tester-go"
+    ]
+    packagesWithKeymapsDisabled: []
+    themes: [
+      "one-dark-ui"
+      "railscast-theme"
+    ]
+  editor:
+    fontSize: 16
+    invisibles: {}
+  "exception-reporting":
+    userId: "c7566da2-9e73-a593-82c1-227b96d38a26"
+  "go-plus":
+    panelDisplayMode: "closed"
+  "linter-erlang": {}
+  "linter-rebar3": {}
+  welcome:
+    showOnStartup: false
