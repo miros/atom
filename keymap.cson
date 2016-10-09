@@ -33,3 +33,6 @@
 'body':
   'alt-j': 'pane:show-previous-item'
   'alt-k': 'pane:show-next-item'
+
+'.platform-darwin':
+  'alt-p': 'tree-view:toggle-focus'

@@ -12,6 +12,8 @@
       "go-debug"
       "tester-go"
       "language-gfm"
+      "markdown-preview"
+      "spell-check"
     ]
     packagesWithKeymapsDisabled: [
       "open-on-bitbucket"
@@ -35,7 +37,9 @@
   "package-sync":
     createOnChange: true
     forceOverwrite: true
+  "spell-check": {}
   "tree-view":
+    autoReveal: true
     hideVcsIgnoredFiles: false
   "vim-mode-plus":
     incrementalSearch: true

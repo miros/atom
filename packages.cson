@@ -33,6 +33,8 @@ packages: [
   "linter-elixirc"
   "linter-erlang"
   "linter-rebar3"
+  "markdown-preview-plus"
+  "markdown-scroll-sync"
   "merge-conflicts"
   "navigator-go"
   "open-on-bitbucket"
