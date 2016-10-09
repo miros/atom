@@ -29,3 +29,7 @@
 
 'atom-text-editor.vim-mode-plus-search':
   'cmd-enter': 'vim-mode-plus-user:project-find-from-search'
+
+'body':
+  'alt-j': 'pane:show-previous-item'
+  'alt-k': 'pane:show-next-item'

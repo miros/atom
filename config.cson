@@ -1,4 +1,8 @@
 "*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "04e2eea8-98ff-4fdf-adc1-2db5e681e3d8"
+    ruby: {}
   autosave:
     enabled: true
   core:
@@ -7,6 +11,7 @@
       "linter-erlang"
       "go-debug"
       "tester-go"
+      "language-gfm"
     ]
     packagesWithKeymapsDisabled: [
       "open-on-bitbucket"
@@ -18,6 +23,7 @@
   editor:
     fontSize: 16
     invisibles: {}
+    showIndentGuide: true
   "exception-reporting":
     userId: "c7566da2-9e73-a593-82c1-227b96d38a26"
   "go-plus":
@@ -26,7 +32,14 @@
     errorPanelHeight: 167
   "linter-erlang": {}
   "linter-rebar3": {}
+  "package-sync":
+    createOnChange: true
+    forceOverwrite: true
   "tree-view":
-    hideVcsIgnoredFiles: true
+    hideVcsIgnoredFiles: false
+  "vim-mode-plus":
+    incrementalSearch: true
+    stayOnYank: true
+    useClipboardAsDefaultRegister: true
   welcome:
     showOnStartup: false
