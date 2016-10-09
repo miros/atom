@@ -26,3 +26,6 @@
 
 'atom-text-editor, atom-workspace':
   'alt-cmd-p': 'advanced-open-file:toggle'
+
+'atom-text-editor.vim-mode-plus-search':
+  'cmd-enter': 'vim-mode-plus-user:project-find-from-search'

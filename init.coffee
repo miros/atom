@@ -9,3 +9,6 @@
 # atom.workspace.observeTextEditors (editor) ->
 #   editor.onDidSave ->
 #     console.log "Saved! #{editor.getPath()}"
+
+atom.commands.add 'atom-text-editor.vim-mode-plus.insert-mode', 'blur', ->
+  atom.commands.dispatch(this, 'vim-mode-plus:reset-normal-mode')

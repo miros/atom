@@ -8,7 +8,9 @@
       "go-debug"
       "tester-go"
     ]
-    packagesWithKeymapsDisabled: []
+    packagesWithKeymapsDisabled: [
+      "open-on-bitbucket"
+    ]
     themes: [
       "one-dark-ui"
       "railscast-theme"
@@ -20,7 +22,11 @@
     userId: "c7566da2-9e73-a593-82c1-227b96d38a26"
   "go-plus":
     panelDisplayMode: "closed"
+  linter:
+    errorPanelHeight: 167
   "linter-erlang": {}
   "linter-rebar3": {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
   welcome:
     showOnStartup: false
