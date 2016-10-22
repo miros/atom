@@ -3,6 +3,9 @@
     general:
       _analyticsUserId: "04e2eea8-98ff-4fdf-adc1-2db5e681e3d8"
     ruby: {}
+  "autocomplete-elixir": {}
+  "autocomplete-go":
+    snippetMode: "nameAndType"
   autosave:
     enabled: true
   core:
@@ -17,7 +20,9 @@
     ]
     packagesWithKeymapsDisabled: [
       "open-on-bitbucket"
+      "symbol-gen"
     ]
+    telemetryConsent: "no"
     themes: [
       "one-dark-ui"
       "railscast-theme"
@@ -29,9 +34,10 @@
   "exception-reporting":
     userId: "c7566da2-9e73-a593-82c1-227b96d38a26"
   "go-plus":
+    currentPanelHeight: "29.03430749682338vh"
     panelDisplayMode: "closed"
   linter:
-    errorPanelHeight: 167
+    errorPanelHeight: 24
   "linter-erlang": {}
   "linter-rebar3": {}
   "package-sync":
@@ -40,10 +46,9 @@
   "spell-check": {}
   "tree-view":
     autoReveal: true
-    hideVcsIgnoredFiles: false
+    hideVcsIgnoredFiles: true
   "vim-mode-plus":
     incrementalSearch: true
     stayOnYank: true
-    useClipboardAsDefaultRegister: true
   welcome:
     showOnStartup: false

@@ -32,7 +32,17 @@
 
 'body':
   'alt-j': 'pane:show-previous-item'
+  'ctrl-left': 'pane:show-previous-item'
   'alt-k': 'pane:show-next-item'
+  'ctrl-right': 'pane:show-next-item'
 
 '.platform-darwin':
   'alt-p': 'tree-view:toggle-focus'
+
+'.tree-view':
+  'o': 'tree-view:open-selected-entry'
+
+'atom-text-editor.vim-mode-plus.normal-mode':
+  'y s': 'vim-mode-plus:surround'
+  'd s': 'vim-mode-plus:delete-surround-any-pair-allow-forwarding'
+  'c s': 'vim-mode-plus:change-surround-any-pair-allow-forwarding'
